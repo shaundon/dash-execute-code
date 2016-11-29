@@ -1,0 +1,14 @@
+{
+  "name": "dash-execute-code",
+  "version": "1.0.0",
+  "description": "Execute arbitrary code when your Dash button is pressed.",
+  "main": "index.js",
+  "scripts": {
+    "find-buttons": "sudo ./node_modules/node-dash-button/bin/findbutton"
+  },
+  "author": "Shaun Donnelly <http://sdonnelly.co.uk>",
+  "license": "ISC",
+  "dependencies": {
+    "node-dash-button": "^0.6.1"
+  }
+}
